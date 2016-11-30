@@ -7,6 +7,8 @@ Here is the original puzzle I struggled with (the answer is 17):
 
 ![puzzle](https://1.bp.blogspot.com/_qozgm0W_-kE/R8j1u_6WzPI/AAAAAAAAEaA/47nwundYma8/s320/123B.gif)
 
-And here is a video of my program in action. The shape does not have to match the original exactly as long as the structure is the same.
+And here is a video of my program in action. By inputting a triangle similar to the one in the puzzle, it is able to calculate the same result. The shape does not have to match the original exactly as long as the structure is the same.
 
 [![program](https://img.youtube.com/vi/9caxprgu0Wo/0.jpg)](https://www.youtube.com/watch?v=9caxprgu0Wo)
+
+The code for most of the program, including the GUI and triangle counting algorithm can be seen [in the core package] (https://github.com/wizered67/TriangleCounter/tree/master/core/src/com/mygdx/game).
