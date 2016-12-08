@@ -14,8 +14,7 @@ Here is the original puzzle I struggled with (the answer is 17):
 
 And here is a video of my program in action. By inputting a triangle similar to the one in the puzzle, it is able to calculate the same result. The shape does not have to match the original exactly as long as the structure is the same.
 
-[![program](https://img.youtube.com/vi/9caxprgu0Wo/0.jpg)](https://www.youtube.com/watch?v=9caxprgu0Wo)
-
+![program](https://dl.dropboxusercontent.com/u/25507891/triangledemonstration2.gif)
 ##The Interface
 In order to calculate a result, the user must first recreate a similar triangle using the GUI. There are several actions the user can take, such as adding a point, adding a line between points, adding a point to an existing line, and deleting a point. The ability to add a point to an existing line is important because the program must know when points are colinear. Otherwise, it would incorrectly assume that 3 colinear points form a triangle. It is also possible to add a point to multiple lines, as is necessary when multiple lines intersect. Holding shift while adding a point to a line automatically adds it to all lines in close proximity.
 
