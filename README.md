@@ -1,4 +1,4 @@
-# TriangleCounter
+# TriangleCounter (Summer 2015)
 
 ##Overview
 They say necessity is the mother of invention, and that certainly proved to be the case for this project. When I was playing Professor Layton one day, I encountered a challenging puzzle. A triangle was shown with lines passing through it. The goal was to answer how many triangles total were in the picture. This proved to be much tougher than I originally anticipated and only by using all of the available hints and some trial and error was I able to solve the puzzle. I was so enraged by the experience that I vowed never again to succumb to such a puzzle. And so I began writing this program.
@@ -25,5 +25,5 @@ If the new point is not already part of the list of points in the triangle, it i
 
 If the number of points in the list passed into groupTriangles is less than 3, it iterates through all points connected to the new one and recursively calls groupTriangles, with each call adding a different adjacent point to the list. After processing all triangles containing one point, groupTriangles is called again for the rest of the points. Once the algorithm finishes, the number of triangles can be found by checking the size of the list of all triangles found.
 
-If I were to return to this algorithm now, years after originally making it, I believe I could improve it by not considering connected points that have already been processed. 
+If I were to return to this algorithm now, I believe I could improve it by not considering connected points that have already been processed. 
 
